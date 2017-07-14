@@ -15,5 +15,7 @@ struct Color {
                  UIColor(red:0.15, green:0.15, blue:0.15, alpha:1.00).cgColor]
     }
 
-    static var mainGreen: UIColor {return UIColor(red:0.26, green:0.83, blue:0.35, alpha:1.00)}
+    static var mainGreen: UIColor {
+        return UIColor(red:131/255, green:0/255, blue:145/255, alpha:1.00)
+    }
 }
